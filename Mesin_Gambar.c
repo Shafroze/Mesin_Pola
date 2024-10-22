@@ -17,19 +17,19 @@ void Gambar_Pola1(int lebar, int tinggi) {
 }
 
 void Gambar_Pola2(int lebar, int tinggi){
-	  // Loop untuk baris
-	  for (int k = 0; k < tinggi; k++){
-		    //Loop untuk kolom
-		    for (int l = 0; l < lebar; l++){
-			      // Menampilkan * dan spasi secara bergantian
-			      if (l % 2 == 0)
-				        printf("*");
-			      else 
-				        printf(" ");	
-		    }
-		    // Pindah ke baris baru setelah satu baris selesai
+    // Loop untuk baris
+    for (int k = 0; k < tinggi; k++){
+	//Loop untuk kolom
+	for (int l = 0; l < lebar; l++){
+	    // Menampilkan * dan spasi secara bergantian
+	    if (l % 2 == 0)
+		printf("*");
+	    else 
+		printf(" ");	
+        }
+        // Pindah ke baris baru setelah satu baris selesai
         printf("\n");
-	  }
+    }
 }
 
 void Gambar_Pola3(int lebar, int tinggi) {
@@ -48,7 +48,7 @@ void Gambar_Pola3(int lebar, int tinggi) {
                 	  printf("*");
             	  else
                		  printf(" ");
-			      }
+	    }
         }
         // Pindah ke baris baru setelah satu baris selesai
         printf("\n");
